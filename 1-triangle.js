@@ -17,3 +17,9 @@ console.log(abc.length);
 */
 
 //your code here
+
+let triangle = "#";
+while (triangle.length <= 7) {
+    console.log(triangle);
+    triangle += "#";
+}
