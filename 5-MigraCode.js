@@ -13,6 +13,20 @@ for numbers divisible by only one of those).
 a significant percentage of programmer candidates. So if you solved it, your
 labor market value just went up.)
 */
+/*
+The fisrt part:
+function migraCodeNumbers() {
+    for (let i = 1; i <= 100; i += 1) {
+        if (i % 3 === 0) {
+            console.log("Migra");
+        } else if (i % 5 === 0) {
+            console.log("Code");
+        } else {
+            console.log(i);
+        }
+    }
+} 
+*/
 
 function migraCodeNumbers() {
     for (let i = 1; i <= 100; i += 1) {
