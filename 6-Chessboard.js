@@ -21,3 +21,15 @@ of the given width and height
 */
 
 // with reminder operator (numbers of caracthres % === 8) { console.log(' ', '#', ' ', '#'...)
+
+function chessboard() {
+    for (let i = 1; i <= 8; i += 1) {
+        if (i % 2 === 0) {
+            console.log("#", "", "#", "", "#", "", "#", "");
+        } else {
+            console.log("", "#", "", "#", "", "#", "", "#");
+        }
+    }
+}
+
+chessboard();
